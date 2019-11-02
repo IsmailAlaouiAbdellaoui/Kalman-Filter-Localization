@@ -197,10 +197,10 @@ class Map:
                 elif input == ord('s'):
                     if self.robot.vel >= 1:
                         self.robot.vel -= 1
-                elif input == ord('o'):
+                elif input == ord('l'):
                     if self.robot.omega < self.omega_limit:
                         self.robot.omega += 1
-                elif input == ord('l'):
+                elif input == ord('r'):
                     if self.robot.omega >= -self.omega_limit:
                         self.robot.omega -= 1
                 elif input == ord('x'):
